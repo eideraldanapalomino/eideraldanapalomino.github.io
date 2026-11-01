@@ -1,0 +1,351 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic conferences, talks and scientific events attended by Eider Aldana Palomino.">
+  <title>Conferences | Eider Aldana</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Conference sections */
+    .conference-section {
+      padding: 35px 0 55px;
+    }
+
+    .conference-section + .conference-section {
+      border-top: 1px solid var(--border, #e1e5eb);
+      padding-top: 55px;
+    }
+
+    .conference-heading {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 0 0 30px;
+      color: var(--text, #172337);
+    }
+
+    .conference-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .conference-entry {
+      display: grid;
+      grid-template-columns: 90px 22px minmax(0, 1fr);
+      column-gap: 20px;
+      align-items: start;
+    }
+
+    .conference-year {
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: center;
+      padding-top: 3px;
+      color: var(--text, #172337);
+      white-space: nowrap;
+    }
+
+    .conference-bookmark {
+      width: 17px;
+      height: 23px;
+      background: #315f96;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%);
+      margin-top: 1px;
+    }
+
+    .conference-description {
+      font-size: 1.12rem;
+      line-height: 1.55;
+      color: var(--text, #222);
+      margin: 0;
+    }
+
+    .conference-description strong {
+      font-weight: 700;
+    }
+
+    .conference-description em {
+      font-style: italic;
+    }
+
+    .conference-description a {
+      color: var(--primary, #315f96);
+      text-decoration: underline;
+      overflow-wrap: anywhere;
+    }
+
+    .conference-description a:hover {
+      opacity: 0.75;
+    }
+
+    @media (max-width: 768px) {
+      .conference-section {
+        padding: 25px 0 40px;
+      }
+
+      .conference-section + .conference-section {
+        padding-top: 40px;
+      }
+
+      .conference-heading {
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+      }
+
+      .conference-list {
+        gap: 20px;
+      }
+
+      .conference-entry {
+        grid-template-columns: 65px 17px minmax(0, 1fr);
+        column-gap: 12px;
+      }
+
+      .conference-year {
+        font-size: 0.9rem;
+      }
+
+      .conference-bookmark {
+        width: 15px;
+        height: 21px;
+      }
+
+      .conference-description {
+        font-size: 1rem;
+        line-height: 1.55;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .conference-entry {
+        grid-template-columns: 55px 15px minmax(0, 1fr);
+        column-gap: 9px;
+      }
+
+      .conference-year {
+        font-size: 0.82rem;
+      }
+
+      .conference-description {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+
+<body data-en-title="Conferences | Eider Aldana"
+      data-es-title="Congresos | Eider Aldana">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Eider <span>Aldana</span></a>
+
+    <button class="menu-toggle" aria-label="Open navigation">Menu</button>
+
+    <div class="nav-wrap">
+      <nav aria-label="Main navigation">
+        <a href="index.html" data-en="Home" data-es="Inicio">Home</a>
+        <a href="about.html" data-en="About" data-es="Perfil">About</a>
+        <a href="research.html" data-en="Research" data-es="Investigación">Research</a>
+        <a href="publications.html" data-en="Publications" data-es="Publicaciones">Publications</a>
+        <a href="conferences.html" data-en="Conferences" data-es="Congresos">Conferences</a>
+        <a href="teaching.html" data-en="Teaching" data-es="Docencia">Teaching</a>
+        <a href="cv.html" data-en="CV" data-es="CV">CV</a>
+        <a href="contact.html" data-en="Contact" data-es="Contacto">Contact</a>
+      </nav>
+
+      <button class="lang-switch" data-lang-label aria-label="Change language">ES</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow"
+           data-en="Academic activities"
+           data-es="Actividades académicas">
+        Academic activities
+      </div>
+
+      <h1 data-en="Conferences & seminars"
+          data-es="Congresos y seminarios">
+        Conferences & seminars
+      </h1>
+
+      <p data-en="Conference presentations and participation in scientific events."
+         data-es="Presentaciones en congresos y participación en encuentros científicos.">
+        Conference presentations and participation in scientific events.
+      </p>
+    </div>
+  </section>
+
+  <section class="conference-section">
+    <div class="container">
+
+      <h2 class="conference-heading"
+          data-en="Conference Talks"
+          data-es="Presentaciones en congresos">
+        Conference Talks
+      </h2>
+
+      <div class="conference-list">
+
+        <!-- 2026 -->
+        <article class="conference-entry">
+          <div class="conference-year"></div>
+          <span class="conference-bookmark" aria-hidden="true"></span>
+          <p class="conference-description">
+            <strong>XXIX Congreso de Ecuaciones Diferenciales y Aplicaciones (CEDYA) – XIX Congreso de Matemática Aplicada (CMA).</strong>
+            <span data-en="Universitat de València, Spain, July 6–10, 2026."
+                  data-es="Universitat de València, España, Julio 6–10, 2026.">Universitat de València, España, Julio 6–10, 2026.</span>
+            <span data-en="Presentation titled:"
+                  data-es="Presentación titulada:">Presentation titled:</span>
+            <em>Numerical Analysis of a three-field formulation for a Reverse Osmosis Model. Year: 2026</em>
+          </p>
+        </article>
+
+        <article class="conference-entry">
+          <div class="conference-year"></div>
+          <span class="conference-bookmark" aria-hidden="true"></span>
+          <p class="conference-description">
+            <strong>XXXVIII Jornadas de Matemática de la Zona Sur (JMZS).</strong>
+            <span data-en="Universidad del Bío-Bío, Concepción, Chile, April 22-24, 2026."
+                  data-es="Universidad del Bío-Bío, Concepción, Chile, Abril 22-24, 2026.">Universidad del Bío-Bío, Concepción, Chile, Abril 22-24, 2026.</span>
+            <span data-en="Presentation titled:"
+                  data-es="Presentación titulada:">Presentation titled:</span>
+            <em>A three-field formulation for an unsteady Reverse Osmosis model.</em>
+          </p>
+        </article>
+
+        <!-- 2025 -->
+        <article class="conference-entry">
+          <div class="conference-year"></div>
+          <span class="conference-bookmark" aria-hidden="true"></span>
+          <p class="conference-description">
+            <strong>Escuela de Primavera en Matemática Aplicada (E'(UBB)) .</strong>
+            <span data-en="Universidad del Bío-Bío, Concepción, Chile, October 13-16, 2025."
+                  data-es="Universidad del Bío-Bío, Concepción, Chile, Octubre 13-16, 2025.">Universidad del Bío-Bío, Concepción, Chile, Octubre 13-16, 2025.</span>
+          </p>
+        </article>
+
+        <article class="conference-entry">
+          <div class="conference-year"></div>
+          <span class="conference-bookmark" aria-hidden="true"></span>
+          <p class="conference-description">
+            <strong>XCIII Encuentro Anual de la Sociedad de Matemática de Chile (SOMACHI).</strong>
+            <span data-en="Universidad de La Serena, Vicuña, Chile, November 25-28, 2025."
+                  data-es="Universidad de La Serena, Vicuña, Chile, Noviembre 25-28, 2025.">Universidad de La Serena, Vicuña, Chile, Noviembre 25-28, 2025.</span>
+          </p>
+        </article>
+
+         <!-- Talca Numerica -->
+        <article class="conference-entry">
+          <div class="conference-year"></div>
+          <span class="conference-bookmark" aria-hidden="true"></span>
+          <p class="conference-description">
+            <strong>Tenth Meeting on Numerical Analysis of Partial Differential Equations (Talca Numérica I).</strong>
+            <span data-en="Universidad Católica del Maule, Talca, Chile, July 2-4, 2025."
+                  data-es="Universidad Católica del Maule, Talca, Chile, Julio 2-4, 2025.">Universidad Católica del Maule, Talca, Chile, Julio 2-4, 2025.</span>
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="conference-section">
+    <div class="container">
+
+      <h2 class="conference-heading"
+          data-en="Attendance at Scientific Events"
+          data-es="Participación en eventos científicos">
+        Attendance at Scientific Events
+      </h2>
+
+      <div class="conference-list">
+
+        <!-- SIAM -->
+        <article class="conference-entry">
+          <div class="conference-year"></div>
+          <span class="conference-bookmark" aria-hidden="true"></span>
+          <p class="conference-description">
+            <strong>SIAM Conference Texas–Louisiana Section, 7th Annual Meeting.</strong>
+            <span data-en="Baylor University, Waco, Texas, USA, October 11-13, 2024."
+                  data-es="Baylor University, Waco, Texas, USA, Octubre 11-13, 2024.">Baylor University, Waco, Texas, USA, Octubre 11-13, 2024.</span>
+            <span data-en="Presentation titled:"
+                  data-es="Presentación titulada:">Presentation titled:</span>
+            <em>Analysis of a Conforming Finite Element Method for a Reverse Osmosis Model.</em>
+          </p>
+        </article>
+
+       
+
+        <!-- 2022 -->
+        <article class="conference-entry">
+          <div class="conference-year"></div>
+          <span class="conference-bookmark" aria-hidden="true"></span>
+          <p class="conference-description">
+            <strong>Primer Encuentro Nacional de Estudiantes de Matemática (ENEMAT).</strong>
+            <span data-en="Pontificia Universidad Católica de Chile, November 2–4, 2022."
+                  data-es="Pontificia Universidad Católica de Chile, Noviembre 2–4, 2022.">Pontificia Universidad Católica de Chile, Noviembre 2–4, 2022.</span>
+          </p>
+        </article>
+
+        <!-- 2024 -->
+        <article class="conference-entry">
+          <div class="conference-year"></div>
+          <span class="conference-bookmark" aria-hidden="true"></span>
+          <p class="conference-description">
+            <strong>Seventh Chilean Workshop on Numerical Analysis of Partial Differential Equations (WONAPDE).</strong>
+            <span data-en="Universidad de Concepción, Chile, January 15-19, 2024."
+                  data-es="Universidad de Concepción, Chile, Enero 15-19, 2024.">Universidad de Concepción, Chile, Enero 15-19, 2024.</span>  
+          </p>
+        </article>
+
+        <!-- 2023 -->
+        <article class="conference-entry">
+          <div class="conference-year"></div>
+          <span class="conference-bookmark" aria-hidden="true"></span>
+          <p class="conference-description">
+            <strong>Primer Workshop de Matemática Multidisciplinaria.</strong>
+            <span data-en="Co-organized by Universidad del Bío-Bío and Universidad de Concepción, Chile, December 12, 2023."
+                  data-es="Co-organizado por la Universidad del Bío-Bío y la Universidad de Concepción, Chile, Diciembre 12, 2023.">Co-organizado por la Universidad del Bío-Bío y la Universidad de Concepción, Chile, Diciembre 12, 2023.</span>
+            </span>
+          </p>
+        </article>
+
+        <article class="conference-entry">
+          <div class="conference-year"></div>
+          <span class="conference-bookmark" aria-hidden="true"></span>
+          <p class="conference-description">
+            <strong>XXXV Jornada de Matemática de la Zona Sur (JMZS).</strong>
+            <span data-en="Concepción, Chile, April 19-21, 2023."
+                  data-es="Concepción, Chile, Abril 19-21, 2023.">Concepción, Chile, Abril 19-21, 2023.</span>
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year">2026</span> Eider Aldana Palomino</span>
+    <span data-en="Applied Mathematics · Universidad del Bío-Bío"
+          data-es="Matemática Aplicada · Universidad del Bío-Bío">
+      Applied Mathematics · Universidad del Bío-Bío
+    </span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
