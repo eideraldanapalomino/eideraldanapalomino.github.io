@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Academic website of Eider Aldana Palomino, PhD student in Applied Mathematics.">
-  <meta name="robots" content="noindex, follow">
   <title>Research | Eider Aldana</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -41,6 +40,87 @@
 <section class="section"><div class="container content-narrow prose">
 <h2 data-en="Reverse osmosis model" data-es="Modelo de ósmosis inversa">Reverse osmosis model</h2>
 <p data-en="My doctoral research concerns the mathematical modelling and numerical analysis of reverse osmosis desalination. The model couples the incompressible Navier–Stokes equations for the fluid velocity and pressure with a convection–diffusion equation for salt concentration." data-es="Mi investigación doctoral aborda la modelación matemática y el análisis numérico de la desalinización por ósmosis inversa. El modelo acopla las ecuaciones de Navier–Stokes incompresibles para la velocidad y presión del fluido con una ecuación de convección–difusión para la concentración de sal.">My doctoral research concerns the mathematical modelling and numerical analysis of reverse osmosis desalination. The model couples the incompressible Navier–Stokes equations for the fluid velocity and pressure with a convection–diffusion equation for salt concentration.</p>
+
+<div class="simulation-section">
+  <h3 class="simulation-heading"
+      data-en="Numerical Simulations"
+      data-es="Simulaciones numéricas">
+    Numerical Simulations
+  </h3>
+
+  <div class="simulation-grid">
+
+    <!-- Velocity Magnitude -->
+    <figure class="simulation-card">
+      <div class="simulation-media simulation-image-wrap">
+        <img
+          src="./assets/Velocity.png"
+          alt="Velocity magnitude in the two-dimensional reverse osmosis model"
+          loading="lazy">
+      </div>
+
+      <figcaption>
+        <h4 data-en="Velocity Magnitude"
+            data-es="Magnitud de la velocidad">
+          Velocity Magnitude
+        </h4>
+        <p data-en="Spatial distribution of the fluid velocity magnitude."
+           data-es="Distribución espacial de la magnitud de la velocidad del fluido.">
+          Spatial distribution of the fluid velocity magnitude.
+        </p>
+      </figcaption>
+    </figure>
+
+    <!-- Pressure -->
+    <figure class="simulation-card">
+      <div class="simulation-media">
+        <video
+          controls
+          preload="auto"
+          playsinline
+          style="width: 100%; height: auto; display: block;">
+          <source src="./assets/Pressure.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+
+      <figcaption>
+        <h4 data-en="Pressure" data-es="Presión">Pressure</h4>
+        <p data-en="Time evolution of the pressure field."
+           data-es="Evolución temporal del campo de presión.">
+          Time evolution of the pressure field.
+        </p>
+      </figcaption>
+    </figure>
+
+    <!-- Concentration -->
+    <figure class="simulation-card">
+      <div class="simulation-media">
+        <video
+          controls
+          preload="auto"
+          playsinline
+          style="width: 100%; height: auto; display: block;">
+          <source src="./assets/Concentration.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+
+      <figcaption>
+        <h4 data-en="Concentration"
+            data-es="Concentración">
+          Concentration
+        </h4>
+        <p data-en="Time evolution of the salt concentration field."
+           data-es="Evolución temporal del campo de concentración de sal.">
+          Time evolution of the salt concentration field.
+        </p>
+      </figcaption>
+    </figure>
+
+  </div>
+</div>
+
 <h2 data-en="Main topics" data-es="Temas principales">Main topics</h2>
 <ul>
 <li data-en="Existence and uniqueness of weak solutions using fixed-point arguments." data-es="Existencia y unicidad de soluciones débiles mediante argumentos de punto fijo.">Existence and uniqueness of weak solutions using fixed-point arguments.</li>
