@@ -29,14 +29,10 @@
   const carousel = document.querySelector(".photo-carousel");
   if (carousel) {
     const photoFiles = [
-      "assets/profile.jpg",
-      "assets/IMG_1605.jpg", "assets/IMG_1607.JPG", "assets/IMG_1783.JPG",
-      "assets/IMG_1796.JPG", "assets/IMG_1867.JPG", "assets/IMG_1898.JPG",
-      "assets/IMG_2146.jpg", "assets/IMG_2150.JPG", "assets/IMG_2240.jpg",
-      "assets/IMG_2245.JPG", "assets/IMG_2330.jpg", "assets/IMG_2331.JPG",
-      "assets/IMG_2379.jpg", "assets/IMG_2434.jpg", "assets/IMG_2437.JPG",
-      "assets/IMG_2468.JPG", "assets/IMG_2513.JPG", "assets/IMG_2657.jpg",
-      "assets/IMG_2755.jpg", "assets/IMG_9590.jpg"
+      "assets/profile.jpg", "assets/IMG_9590.jpg", "assets/IMG_1796.JPG",
+      "assets/IMG_1867.JPG", "assets/IMG_2245.JPG", "assets/IMG_2330.jpg",
+      "assets/IMG_2331.JPG", "assets/IMG_2379.jpg", "assets/IMG_2434.jpg",
+      "assets/IMG_2437.JPG", "assets/IMG_2468.JPG", "assets/IMG_2513.JPG"
     ];
     const image = carousel.querySelector(".carousel-image");
     const indicators = carousel.querySelector(".carousel-indicators");
