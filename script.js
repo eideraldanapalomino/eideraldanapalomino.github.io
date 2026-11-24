@@ -32,7 +32,6 @@
     "assets/profile.jpg",
     "assets/IMG_2832.jpg",
     "assets/IMG_9593.JPG",
-    "assets/IMG_9590.jpg",
     "assets/IMG_2379.jpg",
     "assets/IMG_2075.png",
     "assets/IMG_9591.jpg",
@@ -40,7 +39,6 @@
     "assets/IMG_1867.JPG",
     "assets/IMG_2245.JPG",
     "assets/IMG_2331.JPG",
-    "assets/IMG_2434.jpg",
     "assets/IMG_2513.JPG"
     ];
     const image = carousel.querySelector(".carousel-image");
